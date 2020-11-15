@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RespawnShips>
-    <Ship>
-      <Id>
-        <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>RespawnSpaceElitePod</SubtypeId>
-      </Id>
-      <DisplayName>精英太空重生舱</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips/RespawnSpaceElitePod.png</Icon>
-      <CooldownSeconds>86400</CooldownSeconds>
-      <Prefab>RespawnSpaceElitePod</Prefab>
-      
-      <UseForSpace>true</UseForSpace>
-      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
-    </Ship>
-  </RespawnShips>                
+    <RespawnShips>
+        <Ship>
+            <Id>
+                <TypeId>RespawnShipDefinition</TypeId>
+                <SubtypeId>RespawnSpaceElitePod</SubtypeId>
+            </Id>
+            <DisplayName>精英太空重生舱</DisplayName>
+            <Icon>Textures\GUI\Icons\RespawnShips/RespawnSpaceElitePod.png</Icon>
+            <CooldownSeconds>28800</CooldownSeconds>
+            <Prefab>RespawnSpaceElitePod</Prefab>
+
+            <UseForSpace>true</UseForSpace>
+            <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+        </Ship>
+    </RespawnShips>
 </Definitions>
